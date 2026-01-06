@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+let answer = Answer.shared
 
+print(answer.required1.sum(3, 5))
