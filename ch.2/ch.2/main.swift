@@ -39,3 +39,4 @@ print(answer.required3.c(["가", "나", "다", "라", "마"]))
 // print(answer.required3.d(["가"]))  // 오류
 print(answer.required3.d([1, 2, 3, 4, 5]))
 
+
