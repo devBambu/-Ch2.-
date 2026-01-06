@@ -9,4 +9,5 @@ class Answer {
     static let shared = Answer()
     
     let required1 = Required1()
+    let required2 = Required2()
 }
