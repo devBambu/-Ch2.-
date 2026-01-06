@@ -10,4 +10,5 @@ class Answer {
     
     let required1 = Required1()
     let required2 = Required2()
+    let required3 = Required3()
 }
