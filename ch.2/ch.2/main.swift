@@ -9,4 +9,8 @@ import Foundation
 
 let answer = Answer.shared
 
-print(answer.required1.sum(3, 5))
+// 필수 문제 1
+    // sum 호출 코드
+    print(answer.required1.sum(3, 5))
+    // calculate 호출 코드
+    answer.required1.calculate(3, 5, answer.required1.sum)

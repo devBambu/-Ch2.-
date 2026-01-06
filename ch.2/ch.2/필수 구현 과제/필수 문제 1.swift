@@ -11,4 +11,8 @@ struct Required1 {
     let sum: (Int, Int) -> String = {
         return "두 수의 합은 \($0 + $1) 입니다."
     }
+    
+    func calculate (_ num1: Int, _ num2: Int, _ operation: (Int, Int) -> String) {
+        print(operation(num1, num2))
+    }
 }
